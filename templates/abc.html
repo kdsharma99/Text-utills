@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to text analyzer! Enter your text below</h1>
+    <form action='/analyze' methods='get'>
+        <textarea name="texxt" id="texxt" cols="30" rows="10" style="margin: 0px; width: 1239px; height: 243px;"></textarea>
+        <br><br>
+        <input type="checkbox"name="removepunc"> Remove Punctuation<br>
+        <input type="checkbox"name="capitalizefirst"> Capitalize <br>
+        <input type="checkbox"name="removenewline"> Remove New Line<br>
+        <input type="checkbox"name="removespace"> Remove Space<br>
+        <input type="checkbox"name="countchar"> Count Characters<br>
+        <button type='submit'>Analyze</button>
+    </form>
+    
+</body>
+</html>
